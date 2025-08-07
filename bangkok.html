@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thailand 2025 – Bangkok</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet" />
+  <!-- AOS CSS einbinden -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    /* Basis */
+    body {
+      font-family: 'Oswald', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+
+    h1 {
+      font-weight: 500;
+      font-size: 2.4rem;
+      margin-bottom: 0.3em;
+      letter-spacing: 0.05em;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.4rem;
+      color: #555;
+      margin-bottom: 1.2em;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.05rem;
+      margin-bottom: 1.5em;
+      color: #444;
+    }
+
+    /* Navbar minimal */
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      background: transparent;
+      padding-bottom: 30px;
+    }
+
+    .nav-links a {
+      color: #222;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: 300;
+      font-size: 1rem;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 3px;
+      transition: border-color 0.2s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      border-bottom-color: #222;
+      font-weight: 500;
+    }
+
+    /* Bilder */
+    .header-image {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 8px;
+      margin: 40px auto 0;
+      display: block;
+      filter: brightness(98%);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      body {
+        margin: 20px 15px;
+      }
+
+      .nav-links a {
+        margin-left: 20px;
+        font-size: 0.95rem;
+      }
+    }
+
+    footer {
+      text-align: center;      /* Text horizontal zentrieren */
+      padding: 20px 0;         /* Oben und unten etwas Abstand */
+      color: #555;             /* Optional: etwas dezente Schriftfarbe */
+      font-size: 0.9rem;       /* Optional: kleinere Schriftgröße */
+      background-color:  #f9f9f9; /* Optional: dezenter Hintergrund */
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="bangkok.html" class="active">Bangkok</a>
+      <a href="kohsamui.html">Koh Samui</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1 data-aos="fade-right">Bangkok</h1>
+    <h2 data-aos="fade-right" data-aos-delay="100">Der erste Halt unserer Reise – pulsierend, magisch, unvergesslich!</h2>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Bangkok war der erste Ort, an dem sich das Schicksal offenbarte. Kaum angekommen, war da dieses Knistern in der Luft, als wüsste die Stadt, was bevorstand. Die Straßen waren laut, bunt, lebendig – und irgendwo zwischen Tempeln und Garküchen wartete das erste Zeichen.
+      <br><br>
+      Ein alter Mönch – wortkarg, aber bedeutungsvoll – drückte uns ein geheimnisvolles Amulett in die Hand. Noch wussten wir nicht, was es bedeutete, aber Bangkok war der Anfang von allem. Der Puls der Stadt wurde zu unserem Rhythmus.
+      <br><br>
+      Wir besuchten den Wat Arun im Sonnenuntergang, fuhren mit dem Boot durch die Khlongs und erlebten, wie Vergangenheit und Zukunft hier aufeinandertreffen. Stefan kannte viele Orte schon – doch diesmal war es anders. Diesmal war es eine Reise mit Bedeutung.
+    </p>
+
+    <img class="header-image" src="bangkokbild.jpg" alt="Bangkok" data-aos="fade-up" data-aos-delay="300" />
+  </main>
+
+  <footer>
+    &copy; 2025 Thailand Trip Blog – Alle Rechte vorbehalten.
+  </footer>
+
+  <!-- AOS JS einbinden -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
